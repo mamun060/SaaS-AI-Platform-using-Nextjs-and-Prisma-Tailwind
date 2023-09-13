@@ -1,12 +1,14 @@
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 
-export default function Home() {
+export default function DashboardPage() {
   return (
     <div>
-      <p className=' text-6xl'>Hello AI based SaaS</p>
+      <p className=' text-2xl text-center py-5'>
+        Dashboard Page is protected page
+      </p>
       <div className=' text-center'>
-      <Button>
+      <Button variant="destructive" size="sm"  >
         Hello
       </Button>
       </div>
