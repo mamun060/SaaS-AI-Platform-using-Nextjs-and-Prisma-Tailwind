@@ -8,14 +8,18 @@ function LandingPage() {
         <p className=' text-center text-2xl py-5 font-semibold '>The landing page is unprotected </p>
         <div className=' flex justify-center gap-4'>
           <div>
-            <Button variant="default">
-              <Link href='/sing-in'>Login</Link>
-            </Button>
+            <Link href="/sing-in">
+              <Button variant="default">
+                  Login
+              </Button>
+            </Link>
           </div>
           <div>
-            <Button variant="destructive">
-              <Link href='/sing-up'>Register</Link>
-            </Button>
+            <Link href="/sing-up">
+              <Button variant="destructive">
+                  Register
+              </Button>
+            </Link>
           </div>
         </div>
     </div>
