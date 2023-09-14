@@ -13,8 +13,6 @@ export default function DashboardPage() {
         Hello
       </Button>
       </div>
-
-      <UserButton afterSignOutUrl="/"/>
     </div>
   )
 }
