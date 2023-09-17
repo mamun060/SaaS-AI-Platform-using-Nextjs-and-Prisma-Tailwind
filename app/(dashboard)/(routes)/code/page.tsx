@@ -1,6 +1,6 @@
 const CodePage = () => {
     return (
-        <div>
+        <div className=" p-4">
             Code page
         </div>
     );

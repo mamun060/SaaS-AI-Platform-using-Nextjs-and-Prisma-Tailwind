@@ -1,6 +1,6 @@
 const SettingPage = () => {
     return (
-        <div>
+        <div className=" p-4">
             Setting page
         </div>
     );

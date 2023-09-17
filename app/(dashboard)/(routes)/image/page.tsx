@@ -1,6 +1,6 @@
 const ImagePage = () => {
     return (
-        <div>
+        <div className=" p-4">
             Image generation page
         </div>
     );

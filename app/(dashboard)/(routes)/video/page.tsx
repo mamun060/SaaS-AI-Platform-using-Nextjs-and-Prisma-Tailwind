@@ -1,6 +1,6 @@
 const VideoPage = () => {
     return ( 
-        <div>
+        <div className=" p-4">
             Video Generation page
         </div>
      );
